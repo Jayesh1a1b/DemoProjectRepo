@@ -1,0 +1,55 @@
+-------------------------------------------------------------------------------
+Test set: testRunner.RunnerTest
+-------------------------------------------------------------------------------
+Tests run: 5, Failures: 0, Errors: 3, Skipped: 0, Time elapsed: 1.25 s <<< FAILURE! - in testRunner.RunnerTest
+Login with valid credentials #1(User Login)  Time elapsed: 0.176 s  <<< ERROR!
+io.cucumber.junit.UndefinedStepException: 
+The step 'User enters valid email address jayesh1a1b@gmail.com' and 1 other step(s) are undefined.
+You can implement these steps using the snippet(s) below:
+
+@When("User enters valid email address jayesh1a1b@gmail.com")
+public void user_enters_valid_email_address_jayesh1a1b_gmail_com() {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+@When("Enter valid password {int}")
+public void enter_valid_password(Integer int1) {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+
+
+Login with valid credentials #2(User Login)  Time elapsed: 0.001 s  <<< ERROR!
+io.cucumber.junit.UndefinedStepException: 
+The step 'User enters valid email address amotooricap9@gmail.com' and 1 other step(s) are undefined.
+You can implement these steps using the snippet(s) below:
+
+@When("User enters valid email address amotooricap9@gmail.com")
+public void user_enters_valid_email_address_amotooricap9_gmail_com() {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+@When("Enter valid password {int}")
+public void enter_valid_password(Integer int1) {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+
+
+Login with valid credentials #3(User Login)  Time elapsed: 0.031 s  <<< ERROR!
+io.cucumber.junit.UndefinedStepException: 
+The step 'User enters valid email address jayeshchoudhary63@gmail.com' and 1 other step(s) are undefined.
+You can implement these steps using the snippet(s) below:
+
+@When("User enters valid email address jayeshchoudhary63@gmail.com")
+public void user_enters_valid_email_address_jayeshchoudhary63_gmail_com() {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+@When("Enter valid password {int}")
+public void enter_valid_password(Integer int1) {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+
+

@@ -1,0 +1,152 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="testRunner.RunnerTest" time="1.25" tests="5" errors="3" skipped="0" failures="0">
+  <properties>
+    <property name="java.specification.version" value="17"/>
+    <property name="sun.cpu.isalist" value="amd64"/>
+    <property name="sun.jnu.encoding" value="Cp1252"/>
+    <property name="java.class.path" value="G:\workspace\BDDDemoProject\target\test-classes;G:\workspace\BDDDemoProject\target\classes;C:\Users\HP\.m2\repository\io\cucumber\cucumber-java\7.10.1\cucumber-java-7.10.1.jar;C:\Users\HP\.m2\repository\org\apiguardian\apiguardian-api\1.1.2\apiguardian-api-1.1.2.jar;C:\Users\HP\.m2\repository\io\cucumber\cucumber-junit\7.10.1\cucumber-junit-7.10.1.jar;C:\Users\HP\.m2\repository\io\cucumber\cucumber-core\7.10.1\cucumber-core-7.10.1.jar;C:\Users\HP\.m2\repository\io\cucumber\cucumber-gherkin\7.10.1\cucumber-gherkin-7.10.1.jar;C:\Users\HP\.m2\repository\io\cucumber\cucumber-gherkin-messages\7.10.1\cucumber-gherkin-messages-7.10.1.jar;C:\Users\HP\.m2\repository\io\cucumber\gherkin\25.0.2\gherkin-25.0.2.jar;C:\Users\HP\.m2\repository\io\cucumber\messages\19.1.4\messages-19.1.4.jar;C:\Users\HP\.m2\repository\io\cucumber\tag-expressions\4.1.0\tag-expressions-4.1.0.jar;C:\Users\HP\.m2\repository\io\cucumber\cucumber-expressions\16.1.1\cucumber-expressions-16.1.1.jar;C:\Users\HP\.m2\repository\io\cucumber\datatable\7.10.1\datatable-7.10.1.jar;C:\Users\HP\.m2\repository\io\cucumber\cucumber-plugin\7.10.1\cucumber-plugin-7.10.1.jar;C:\Users\HP\.m2\repository\io\cucumber\docstring\7.10.1\docstring-7.10.1.jar;C:\Users\HP\.m2\repository\io\cucumber\html-formatter\20.2.0\html-formatter-20.2.0.jar;C:\Users\HP\.m2\repository\io\cucumber\ci-environment\9.1.0\ci-environment-9.1.0.jar;C:\Users\HP\.m2\repository\junit\junit\4.13.2\junit-4.13.2.jar;C:\Users\HP\.m2\repository\org\hamcrest\hamcrest-core\1.3\hamcrest-core-1.3.jar;"/>
+    <property name="java.vm.vendor" value="Oracle Corporation"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="user.variant" value=""/>
+    <property name="java.vendor.url" value="https://java.oracle.com/"/>
+    <property name="user.timezone" value="Asia/Calcutta"/>
+    <property name="os.name" value="Windows 10"/>
+    <property name="java.vm.specification.version" value="17"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="user.country" value="IN"/>
+    <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk-17.0.5\bin"/>
+    <property name="sun.java.command" value="C:\Users\HP\AppData\Local\Temp\surefire13578830360754435797\surefirebooter16479881203887269489.jar C:\Users\HP\AppData\Local\Temp\surefire13578830360754435797 2023-01-04T06-12-21_494-jvmRun1 surefire11476971057524841221tmp surefire_03543092437921723536tmp"/>
+    <property name="jdk.debug" value="release"/>
+    <property name="surefire.test.class.path" value="G:\workspace\BDDDemoProject\target\test-classes;G:\workspace\BDDDemoProject\target\classes;C:\Users\HP\.m2\repository\io\cucumber\cucumber-java\7.10.1\cucumber-java-7.10.1.jar;C:\Users\HP\.m2\repository\org\apiguardian\apiguardian-api\1.1.2\apiguardian-api-1.1.2.jar;C:\Users\HP\.m2\repository\io\cucumber\cucumber-junit\7.10.1\cucumber-junit-7.10.1.jar;C:\Users\HP\.m2\repository\io\cucumber\cucumber-core\7.10.1\cucumber-core-7.10.1.jar;C:\Users\HP\.m2\repository\io\cucumber\cucumber-gherkin\7.10.1\cucumber-gherkin-7.10.1.jar;C:\Users\HP\.m2\repository\io\cucumber\cucumber-gherkin-messages\7.10.1\cucumber-gherkin-messages-7.10.1.jar;C:\Users\HP\.m2\repository\io\cucumber\gherkin\25.0.2\gherkin-25.0.2.jar;C:\Users\HP\.m2\repository\io\cucumber\messages\19.1.4\messages-19.1.4.jar;C:\Users\HP\.m2\repository\io\cucumber\tag-expressions\4.1.0\tag-expressions-4.1.0.jar;C:\Users\HP\.m2\repository\io\cucumber\cucumber-expressions\16.1.1\cucumber-expressions-16.1.1.jar;C:\Users\HP\.m2\repository\io\cucumber\datatable\7.10.1\datatable-7.10.1.jar;C:\Users\HP\.m2\repository\io\cucumber\cucumber-plugin\7.10.1\cucumber-plugin-7.10.1.jar;C:\Users\HP\.m2\repository\io\cucumber\docstring\7.10.1\docstring-7.10.1.jar;C:\Users\HP\.m2\repository\io\cucumber\html-formatter\20.2.0\html-formatter-20.2.0.jar;C:\Users\HP\.m2\repository\io\cucumber\ci-environment\9.1.0\ci-environment-9.1.0.jar;C:\Users\HP\.m2\repository\junit\junit\4.13.2\junit-4.13.2.jar;C:\Users\HP\.m2\repository\org\hamcrest\hamcrest-core\1.3\hamcrest-core-1.3.jar;"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="user.home" value="C:\Users\HP"/>
+    <property name="user.language" value="en"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.version.date" value="2022-10-18"/>
+    <property name="java.home" value="C:\Program Files\Java\jdk-17.0.5"/>
+    <property name="file.separator" value="\"/>
+    <property name="style.color" value="always"/>
+    <property name="basedir" value="G:\workspace\BDDDemoProject"/>
+    <property name="java.vm.compressedOopsMode" value="32-bit"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="surefire.real.class.path" value="C:\Users\HP\AppData\Local\Temp\surefire13578830360754435797\surefirebooter16479881203887269489.jar"/>
+    <property name="user.script" value=""/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="java.runtime.version" value="17.0.5+9-LTS-191"/>
+    <property name="user.name" value="HP"/>
+    <property name="path.separator" value=";"/>
+    <property name="os.version" value="10.0"/>
+    <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
+    <property name="file.encoding" value="Cp1252"/>
+    <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/>
+    <property name="localRepository" value="C:\Users\HP\.m2\repository"/>
+    <property name="java.vendor.url.bug" value="https://bugreport.java.com/bugreport/"/>
+    <property name="java.io.tmpdir" value="C:\Users\HP\AppData\Local\Temp\"/>
+    <property name="java.version" value="17.0.5"/>
+    <property name="user.dir" value="G:\workspace\BDDDemoProject"/>
+    <property name="os.arch" value="amd64"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="sun.os.patch.level" value=""/>
+    <property name="native.encoding" value="Cp1252"/>
+    <property name="java.library.path" value="C:\Program Files\Java\jdk-17.0.5\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:\Program Files\Common Files\Oracle\Java\javapath;C:\Program Files\Git;C:\Program Files\Git;."/>
+    <property name="java.vm.info" value="mixed mode, sharing"/>
+    <property name="java.vendor" value="Oracle Corporation"/>
+    <property name="java.vm.version" value="17.0.5+9-LTS-191"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="java.class.version" value="61.0"/>
+  </properties>
+  <testcase name="Login with valid credentials #1" classname="User Login" time="0.176">
+    <error message="The step &apos;User enters valid email address jayesh1a1b@gmail.com&apos; and 1 other step(s) are undefined.&#10;You can implement these steps using the snippet(s) below:&#10;&#10;@When(&quot;User enters valid email address jayesh1a1b@gmail.com&quot;)&#10;public void user_enters_valid_email_address_jayesh1a1b_gmail_com() {&#10;    // Write code here that turns the phrase above into concrete actions&#10;    throw new io.cucumber.java.PendingException();&#10;}&#10;@When(&quot;Enter valid password {int}&quot;)&#10;public void enter_valid_password(Integer int1) {&#10;    // Write code here that turns the phrase above into concrete actions&#10;    throw new io.cucumber.java.PendingException();&#10;}&#10;" type="io.cucumber.junit.UndefinedStepException">io.cucumber.junit.UndefinedStepException: 
+The step 'User enters valid email address jayesh1a1b@gmail.com' and 1 other step(s) are undefined.
+You can implement these steps using the snippet(s) below:
+
+@When("User enters valid email address jayesh1a1b@gmail.com")
+public void user_enters_valid_email_address_jayesh1a1b_gmail_com() {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+@When("Enter valid password {int}")
+public void enter_valid_password(Integer int1) {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+
+</error>
+    <system-out><![CDATA[
+@login
+Scenario Outline: Login with valid credentials              &amp#27;[90m# src/test/java/features/Login.feature:16&amp#27;[0m
+ browser got opened
+>>User navigate to login page
+  &amp#27;[32mGiven &amp#27;[0m&amp#27;[32mUser navigate to login page&amp#27;[0m                         &amp#27;[90m# stepDefination.Login.user_navigate_to_login_page()&amp#27;[0m
+  &amp#27;[33mWhen &amp#27;[0m&amp#27;[33mUser enters valid email address jayesh1a1b@gmail.com&amp#27;[0m
+  &amp#27;[36mAnd &amp#27;[0m&amp#27;[36mEnter valid password 12345&amp#27;[0m
+  &amp#27;[36mAnd &amp#27;[0m&amp#27;[36mclick on submit button&amp#27;[0m                                &amp#27;[90m# stepDefination.Login.click_on_submit_button()&amp#27;[0m
+  &amp#27;[36mThen &amp#27;[0m&amp#27;[36mUser should login successfully&amp#27;[0m                       &amp#27;[90m# stepDefination.Login.user_should_login_successfully()&amp#27;[0m
+ browser got closed
+]]></system-out>
+  </testcase>
+  <testcase name="Login with valid credentials #2" classname="User Login" time="0.001">
+    <error message="The step &apos;User enters valid email address amotooricap9@gmail.com&apos; and 1 other step(s) are undefined.&#10;You can implement these steps using the snippet(s) below:&#10;&#10;@When(&quot;User enters valid email address amotooricap9@gmail.com&quot;)&#10;public void user_enters_valid_email_address_amotooricap9_gmail_com() {&#10;    // Write code here that turns the phrase above into concrete actions&#10;    throw new io.cucumber.java.PendingException();&#10;}&#10;@When(&quot;Enter valid password {int}&quot;)&#10;public void enter_valid_password(Integer int1) {&#10;    // Write code here that turns the phrase above into concrete actions&#10;    throw new io.cucumber.java.PendingException();&#10;}&#10;" type="io.cucumber.junit.UndefinedStepException">io.cucumber.junit.UndefinedStepException: 
+The step 'User enters valid email address amotooricap9@gmail.com' and 1 other step(s) are undefined.
+You can implement these steps using the snippet(s) below:
+
+@When("User enters valid email address amotooricap9@gmail.com")
+public void user_enters_valid_email_address_amotooricap9_gmail_com() {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+@When("Enter valid password {int}")
+public void enter_valid_password(Integer int1) {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+
+</error>
+    <system-out><![CDATA[
+@login
+Scenario Outline: Login with valid credentials                &amp#27;[90m# src/test/java/features/Login.feature:17&amp#27;[0m
+ browser got opened
+>>User navigate to login page
+  &amp#27;[32mGiven &amp#27;[0m&amp#27;[32mUser navigate to login page&amp#27;[0m                           &amp#27;[90m# stepDefination.Login.user_navigate_to_login_page()&amp#27;[0m
+  &amp#27;[33mWhen &amp#27;[0m&amp#27;[33mUser enters valid email address amotooricap9@gmail.com&amp#27;[0m
+  &amp#27;[36mAnd &amp#27;[0m&amp#27;[36mEnter valid password 12345&amp#27;[0m
+  &amp#27;[36mAnd &amp#27;[0m&amp#27;[36mclick on submit button&amp#27;[0m                                  &amp#27;[90m# stepDefination.Login.click_on_submit_button()&amp#27;[0m
+  &amp#27;[36mThen &amp#27;[0m&amp#27;[36mUser should login successfully&amp#27;[0m                         &amp#27;[90m# stepDefination.Login.user_should_login_successfully()&amp#27;[0m
+ browser got closed
+]]></system-out>
+  </testcase>
+  <testcase name="Login with valid credentials #3" classname="User Login" time="0.031">
+    <error message="The step &apos;User enters valid email address jayeshchoudhary63@gmail.com&apos; and 1 other step(s) are undefined.&#10;You can implement these steps using the snippet(s) below:&#10;&#10;@When(&quot;User enters valid email address jayeshchoudhary63@gmail.com&quot;)&#10;public void user_enters_valid_email_address_jayeshchoudhary63_gmail_com() {&#10;    // Write code here that turns the phrase above into concrete actions&#10;    throw new io.cucumber.java.PendingException();&#10;}&#10;@When(&quot;Enter valid password {int}&quot;)&#10;public void enter_valid_password(Integer int1) {&#10;    // Write code here that turns the phrase above into concrete actions&#10;    throw new io.cucumber.java.PendingException();&#10;}&#10;" type="io.cucumber.junit.UndefinedStepException">io.cucumber.junit.UndefinedStepException: 
+The step 'User enters valid email address jayeshchoudhary63@gmail.com' and 1 other step(s) are undefined.
+You can implement these steps using the snippet(s) below:
+
+@When("User enters valid email address jayeshchoudhary63@gmail.com")
+public void user_enters_valid_email_address_jayeshchoudhary63_gmail_com() {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+@When("Enter valid password {int}")
+public void enter_valid_password(Integer int1) {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+
+</error>
+    <system-out><![CDATA[
+@login
+Scenario Outline: Login with valid credentials                     &amp#27;[90m# src/test/java/features/Login.feature:18&amp#27;[0m
+ browser got opened
+>>User navigate to login page
+  &amp#27;[32mGiven &amp#27;[0m&amp#27;[32mUser navigate to login page&amp#27;[0m                                &amp#27;[90m# stepDefination.Login.user_navigate_to_login_page()&amp#27;[0m
+  &amp#27;[33mWhen &amp#27;[0m&amp#27;[33mUser enters valid email address jayeshchoudhary63@gmail.com&amp#27;[0m
+  &amp#27;[36mAnd &amp#27;[0m&amp#27;[36mEnter valid password 12345&amp#27;[0m
+  &amp#27;[36mAnd &amp#27;[0m&amp#27;[36mclick on submit button&amp#27;[0m                                       &amp#27;[90m# stepDefination.Login.click_on_submit_button()&amp#27;[0m
+  &amp#27;[36mThen &amp#27;[0m&amp#27;[36mUser should login successfully&amp#27;[0m                              &amp#27;[90m# stepDefination.Login.user_should_login_successfully()&amp#27;[0m
+ browser got closed
+]]></system-out>
+  </testcase>
+  <testcase name="Login with invalid credentials" classname="User Login" time="0.025"/>
+  <testcase name="Login with valid email and invalid password" classname="User Login" time="0.018"/>
+</testsuite>
